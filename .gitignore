@@ -1,7 +1,7 @@
 /node_modules
 /public
 /storage/*.key
-/storage/logs/
+/storage/
 /vendor
 /.idea
 /.vscode
@@ -9,5 +9,5 @@
 Homestead.json
 Homestead.yaml
 npm-debug.log
-yarn-error.log
+yarn-error.lo
 .env
