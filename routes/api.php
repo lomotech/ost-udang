@@ -30,9 +30,5 @@ Route::namespace('API')->group(function () {
 
     Route::resource('xrefSubdistricts', 'XrefSubdistrictAPIController');
 
-    Route::resource('reporters', 'ReporterAPIController');
-
     Route::resource('languageLines', 'LanguageLineAPIController');
-
-    Route::resource('tickets', 'TicketAPIController');
 });

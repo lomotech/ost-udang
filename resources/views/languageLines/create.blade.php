@@ -7,10 +7,8 @@
         </div>
     </div>
 
-    @include('core-templates::common.errors')
-
     <div class="row">
-        {!! Form::open(['route' => 'languageLines.store']) !!}
+        {!! Form::open(['route' => 'admin.languageLines.store']) !!}
 
             @include('languageLines.fields')
 
