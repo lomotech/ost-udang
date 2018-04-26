@@ -16,6 +16,7 @@ Route::name('admin.')->prefix('admin')->group(function(){
     Route::resource('xrefStates', 'XrefStateController');
     Route::resource('xrefDistricts', 'XrefDistrictController');
     Route::resource('xrefSubdistricts', 'XrefSubdistrictController');
+    Route::resource('xrefOptions', 'XrefOptionController');
     Route::resource('languageLines', 'LanguageLineController');
 });
 

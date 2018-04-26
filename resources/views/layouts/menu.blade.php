@@ -35,20 +35,9 @@
         <li class="{{ Request::is('xrefSubdistricts*') ? 'active' : '' }}">
             <a href="{!! route('xrefSubdistricts.index') !!}">XrefSubdistricts</a>
         </li>
-        <li class="{{ Request::is('reporters*') ? 'active' : '' }}">
-            <a href="{!! route('reporters.index') !!}">Reporters</a>
-        </li>
 
         <li class="{{ Request::is('languageLines*') ? 'active' : '' }}">
             <a href="{!! route('languageLines.index') !!}">LanguageLines</a>
-        </li>
-
-        <li class="{{ Request::is('tickets*') ? 'active' : '' }}">
-            <a href="{!! route('tickets.index') !!}">Tickets</a>
-        </li>
-
-        <li class="{{ Request::is('xrefOptions*') ? 'active' : '' }}">
-            <a href="{!! route('xrefOptions.index') !!}">XrefOptions</a>
         </li>
     </ul>
 </li>
